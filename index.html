@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Durgesh Pardeshi — CSE (AIML) Student, AI/ML enthusiast and developer specializing in computer vision and data-driven tools." />
+  <meta name="keywords" content="Durgesh Pardeshi, AIML, CSE student, portfolio, machine learning, animal detection, YOLOv8, finance tracker" />
+  <meta name="author" content="Durgesh Pardeshi" />
+  <meta property="og:title" content="Durgesh Pardeshi | AIML Developer Portfolio" />
+  <meta property="og:description" content="CSE (AIML) Student passionate about AI, computer vision, and building smart tools." />
+  <title>Durgesh Pardeshi | AIML Developer Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" id="nav-logo">
+        <span class="logo-bracket">&lt;</span>DP<span class="logo-bracket">/&gt;</span>
+      </a>
+      <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+        <a href="#about" class="nav-link" id="nav-about">About</a>
+        <a href="#skills" class="nav-link" id="nav-skills">Skills</a>
+        <a href="#projects" class="nav-link" id="nav-projects">Projects</a>
+        <a href="#education" class="nav-link" id="nav-education">Education</a>
+        <a href="#contact" class="nav-link" id="nav-contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge" id="hero-badge">
+          <span class="badge-dot"></span>
+          Available for Internship &amp; Collaboration
+        </div>
+        <h1 class="hero-title" id="hero-title">
+          Hi, I'm <span class="gradient-text">Durgesh</span><br />
+          <span class="hero-subtitle-line">Pardeshi</span>
+        </h1>
+        <p class="hero-tagline" id="hero-tagline">
+          CSE (AIML) Student &bull; Computer Vision Enthusiast &bull; Problem Solver
+        </p>
+        <p class="hero-description" id="hero-description">
+          I'm a passionate 3rd-year Computer Science student specializing in Artificial
+          Intelligence &amp; Machine Learning. I love building intelligent systems that
+          solve real-world problems — from detecting animals with YOLOv8 to smart
+          finance tracking tools.
+        </p>
+        <div class="hero-cta" id="hero-cta">
+          <a href="#projects" class="btn btn-primary" id="btn-see-work">See My Work</a>
+          <a href="#contact" class="btn btn-secondary" id="btn-contact">Get In Touch</a>
+        </div>
+        <div class="hero-stats" id="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">3rd</span>
+            <span class="stat-label">Year CSE</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">AIML</span>
+            <span class="stat-label">Specialization</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual" id="hero-visual">
+        <div class="avatar-wrapper">
+          <div class="avatar-ring ring-1"></div>
+          <div class="avatar-ring ring-2"></div>
+          <div class="avatar-img-container">
+            <img src="profile_avatar.jpg" alt="Durgesh Pardeshi" class="avatar-img" id="avatar-img" />
+          </div>
+          <div class="floating-tag tag-1" id="tag-python">
+            <span class="tag-icon">🐍</span> Python
+          </div>
+          <div class="floating-tag tag-2" id="tag-yolo">
+            <span class="tag-icon">👁️</span> YOLOv8
+          </div>
+          <div class="floating-tag tag-3" id="tag-ml">
+            <span class="tag-icon">🤖</span> ML
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" id="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll down</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Who I Am</span>
+        <h2 class="section-title" id="about-title">About Me</h2>
+        <p class="section-subtitle">Turning ideas into intelligent solutions</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text" id="about-text">
+          <p>
+            I'm <strong>Durgesh Pardeshi</strong>, a 3rd-year B.Tech student in
+            Computer Science &amp; Engineering with a specialization in
+            <strong>Artificial Intelligence &amp; Machine Learning</strong>.
+          </p>
+          <p>
+            My journey in tech started with curiosity about how machines can
+            <em>see</em> and <em>understand</em> the world. That curiosity led me
+            to build an animal detection system using YOLOv8 — a real-time
+            computer vision model. I also enjoy building practical tools, like my
+            finance tracker that reads bank statements to analyze expenses
+            automatically.
+          </p>
+          <p>
+            I'm always eager to learn new technologies and collaborate on
+            meaningful projects. Currently looking for internship opportunities
+            where I can apply my skills and grow further.
+          </p>
+          <div class="about-info-grid" id="about-info">
+            <div class="info-item">
+              <span class="info-label">📍 Location</span>
+              <span class="info-value">India</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">🎓 Degree</span>
+              <span class="info-value">B.Tech CSE (AIML)</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">📅 Year</span>
+              <span class="info-value">3rd Year (2025–26)</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">💼 Status</span>
+              <span class="info-value">Open to Opportunities</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary" id="btn-hire">Let's Connect</a>
+        </div>
+        <div class="about-cards" id="about-cards">
+          <div class="about-card card-blue">
+            <div class="card-icon">🎯</div>
+            <h3>Focused</h3>
+            <p>Specialized in AI/ML with hands-on experience in computer vision and data analysis.</p>
+          </div>
+          <div class="about-card card-purple">
+            <div class="card-icon">🚀</div>
+            <h3>Builder</h3>
+            <p>I love turning complex problems into clean, functional software solutions.</p>
+          </div>
+          <div class="about-card card-teal">
+            <div class="card-icon">📚</div>
+            <h3>Learner</h3>
+            <p>Constantly exploring new AI techniques, frameworks, and best practices.</p>
+          </div>
+          <div class="about-card card-orange">
+            <div class="card-icon">🤝</div>
+            <h3>Collaborative</h3>
+            <p>Enjoy working in teams, sharing knowledge, and growing together.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What I Know</span>
+        <h2 class="section-title" id="skills-title">Skills &amp; Tech Stack</h2>
+        <p class="section-subtitle">Tools and technologies I work with</p>
+      </div>
+      <div class="skills-grid" id="skills-grid">
+        <div class="skill-category">
+          <h3 class="skill-cat-title">
+            <span class="skill-cat-icon">🧠</span> AI / Machine Learning
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag" id="skill-yolov8">YOLOv8</span>
+            <span class="skill-tag" id="skill-opencv">OpenCV</span>
+            <span class="skill-tag" id="skill-sklearn">Scikit-learn</span>
+            <span class="skill-tag" id="skill-pandas">Pandas</span>
+            <span class="skill-tag" id="skill-numpy">NumPy</span>
+            <span class="skill-tag" id="skill-matplotlib">Matplotlib</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-cat-title">
+            <span class="skill-cat-icon">💻</span> Programming Languages
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary" id="skill-python">Python</span>
+            <span class="skill-tag" id="skill-c">C</span>
+            <span class="skill-tag" id="skill-sql">SQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-cat-title">
+            <span class="skill-cat-icon">🌐</span> Web Technologies
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag" id="skill-html">HTML</span>
+            <span class="skill-tag" id="skill-css">CSS</span>
+            <span class="skill-tag" id="skill-js">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-cat-title">
+            <span class="skill-cat-icon">🛠️</span> Tools &amp; Platforms
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag" id="skill-git">Git &amp; GitHub</span>
+            <span class="skill-tag" id="skill-vscode">VS Code</span>
+            <span class="skill-tag" id="skill-jupyter">Jupyter Notebook</span>
+            <span class="skill-tag" id="skill-colab">Google Colab</span>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What I've Built</span>
+        <h2 class="section-title" id="projects-title">My Projects</h2>
+        <p class="section-subtitle">Real problems, real solutions</p>
+      </div>
+      <div class="projects-grid" id="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card featured" id="project-animal-detection">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon-wrap">🐾</div>
+              <div class="project-links">
+                <a href="#" class="project-link" id="link-animal-github" aria-label="GitHub link for Animal Detection" title="GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" class="link-icon"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-badge">Featured</div>
+            <h3 class="project-title">Animal Detection System</h3>
+            <p class="project-desc">
+              A real-time computer vision system built with <strong>YOLOv8</strong> that
+              detects and classifies animals from images or video streams. Implements
+              custom-trained object detection with bounding boxes and confidence scores.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">YOLOv8</span>
+              <span class="tech-chip">OpenCV</span>
+              <span class="tech-chip">PyTorch</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" id="project-finance-tracker">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon-wrap">💰</div>
+              <div class="project-links">
+                <a href="#" class="project-link" id="link-finance-github" aria-label="GitHub link for Finance Tracker" title="GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" class="link-icon"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Smart Finance Tracker</h3>
+            <p class="project-desc">
+              A Python-based tool that <strong>automatically parses bank statements</strong>
+              and evaluates expenditure patterns. Generates visual expense breakdowns
+              and category-wise summaries to help users understand their spending habits.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">Pandas</span>
+              <span class="tech-chip">PDF Parsing</span>
+              <span class="tech-chip">Matplotlib</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- More Projects Teaser -->
+        <article class="project-card project-more" id="project-more">
+          <div class="project-card-inner more-inner">
+            <div class="more-icon">✨</div>
+            <h3>More Coming Soon</h3>
+            <p>I'm constantly working on new projects. Stay tuned for updates!</p>
+            <a href="#contact" class="btn btn-secondary btn-sm" id="btn-collaborate">Collaborate with me</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="education section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">My Journey</span>
+        <h2 class="section-title" id="education-title">Education</h2>
+        <p class="section-subtitle">Building my foundation in technology</p>
+      </div>
+      <div class="timeline" id="education-timeline">
+
+        <div class="timeline-item" id="edu-btech">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge current">Current</div>
+            <h3 class="timeline-title">B.Tech in Computer Science &amp; Engineering</h3>
+            <p class="timeline-subtitle">Specialization: Artificial Intelligence &amp; Machine Learning</p>
+            <p class="timeline-org">🏛️ Sanjivani University</p>
+            <p class="timeline-period">📅 2025 – 2028</p>
+            <p class="timeline-desc">
+              Studying core CS subjects along with AI/ML specialization modules including
+              computer vision, natural language processing, deep learning, and data science.
+              Worked on real-world projects applying these concepts hands-on.
+            </p>
+            <div class="timeline-tags">
+              <span>Data Structures</span>
+              <span>Machine Learning</span>
+              <span>Computer Vision</span>
+              <span>Deep Learning</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" id="edu-12th">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Diploma In Mechatronics</h3>
+            <p class="timeline-subtitle">Specialization: Robotics & Automation</p>
+            <p class="timeline-org">🏫 Sanjivani KBP Polytechnic</p>
+            <p class="timeline-period">📅 Completed 2025</p>
+            <p class="timeline-desc">
+              Completed a Diploma in Mechatronics with an aggregate score of 86.37%, building a strong foundation in automation, robotics, and industrial systems.
+              Gained hands-on experience in automation technologies, robotics, PLC programming, sensors, actuators, and electromechanical systems through practical projects and laboratory work
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Say Hello</span>
+        <h2 class="section-title" id="contact-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's build something amazing together</p>
+      </div>
+      <div class="contact-wrapper" id="contact-wrapper">
+        <div class="contact-info" id="contact-info">
+          <h3>Let's Connect!</h3>
+          <p>
+            Whether you have an internship opportunity, a project idea, or just want
+            to say hi — my inbox is always open. I'll get back to you as soon as possible!
+          </p>
+          <div class="contact-links" id="contact-links">
+            <a href="mailto:durgesh@example.com" class="contact-link-item" id="link-email">
+              <div class="contact-link-icon">📧</div>
+              <div>
+                <span class="contact-link-label">Email</span>
+                <span class="contact-link-value">durgeshpardeshi38@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/durgesh-pardeshi-9b09ab240/" target="_blank" rel="noopener noreferrer" class="contact-link-item" id="link-linkedin">
+              <div class="contact-link-icon">💼</div>
+              <div>
+                <span class="contact-link-label">LinkedIn</span>
+                <span class="contact-link-value">durgesh-pardeshi</span>
+              </div>
+            </a>
+            <a href="https://github.com/Durgeshpardeshi-sketch" target="_blank" rel="noopener noreferrer" class="contact-link-item" id="link-github">
+              <div class="contact-link-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+              </div>
+              <div>
+                <span class="contact-link-label">GitHub</span>
+                <span class="contact-link-value">durgesh-pardeshi</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+      <div class="footer-logo" id="footer-logo">
+        <span class="logo-bracket">&lt;</span>DP<span class="logo-bracket">/&gt;</span>
+      </div>
+      <p class="footer-text">
+        Designed &amp; Built with ❤️ by <strong>Durgesh Pardeshi</strong>
+      </p>
+      <div class="footer-links" id="footer-links">
+        <a href="https://github.com/durgesh-pardeshi " target="_blank" rel="noopener noreferrer" id="footer-github">GitHub</a>
+        <a href="https://linkedin.com/in/durgesh-pardeshi" target="_blank" rel="noopener noreferrer" id="footer-linkedin">LinkedIn</a>
+        <a href="mailto:durgesh@example.com" id="footer-email">Email</a>
+      </div>
+      <p class="footer-copy">© 2025 Durgesh Pardeshi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init({
+    publicKey: "Pb6gKpXIVSFx_r8Ga"
+});
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
